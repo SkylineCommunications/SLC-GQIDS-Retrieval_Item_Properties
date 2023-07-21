@@ -14,6 +14,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)DTO\PropertyConfigInfo.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DTO\PropertyUsage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ItemTypes\BaseItemTypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ItemTypes\ElementTypes.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ItemTypes\IitemTypes.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ItemTypes\ItemTypeHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ItemTypes\ViewTypes.cs" />
