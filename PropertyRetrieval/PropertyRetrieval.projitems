@@ -17,6 +17,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)ItemTypes\ElementTypes.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ItemTypes\IitemTypes.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ItemTypes\ItemTypeHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ItemTypes\ServiceTypes.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ItemTypes\ViewTypes.cs" />
   </ItemGroup>
 </Project>
