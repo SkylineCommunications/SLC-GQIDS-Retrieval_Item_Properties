@@ -10,6 +10,8 @@
             Dictionary<string, IitemTypes> allItemTypes = new Dictionary<string, IitemTypes>
             {
                 {"View", new ViewTypes(connection)},
+                {"Element", new ElementTypes(connection)},
+                {"Service", new ServiceTypes(connection)},
             };
 
             return allItemTypes[typeName];
@@ -17,7 +19,7 @@
 
         public static string[] GetItemTypes()
         {
-            return new string[] { "View" };
+            return new string[] { "View", "Element", "Service" };
         }
     }
 }
