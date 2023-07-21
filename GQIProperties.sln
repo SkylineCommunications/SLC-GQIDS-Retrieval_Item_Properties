@@ -1,0 +1,113 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{E9268AB5-70BE-4D9C-B82C-DC32CAFCAB72}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\.editorconfig = Internal\.editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{3F8AADC5-A4BB-4FCA-BD9D-D78D46E3117C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{081509CC-86FE-4DB0-A163-3699C24EF951}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\ABOUT.md = Dlls\ABOUT.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{4AF71716-1EBA-4796-9211-CBFA3900E52C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{898B44E1-D7EB-44FF-9D4F-B56D8BBE230F}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{CF7BAC90-EA41-490F-8A96-52CC6651A922}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\ABOUT.md = Documentation\ABOUT.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F8938D60-51A0-4880-9CFC-19C66379BB5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{2C05F5DC-8404-4EEF-9D94-36BDEE961CD7}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GQI_GetNotFilledInPropertiesForObjectType", "GQI_GetNotFilledInPropertiesForObjectType", "{B4F6B1B3-AFB2-440F-A4DB-78A7FEA875D5}"
+	ProjectSection(SolutionItems) = preProject
+		GQI_GetNotFilledInPropertiesForObjectType.xml = GQI_GetNotFilledInPropertiesForObjectType.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{0B5E1DB3-99AC-4BA2-9901-E84368C3625A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GQI_GetNotFilledInPropertiesForObjectType_1", "GQI_GetNotFilledInPropertiesForObjectType_1\GQI_GetNotFilledInPropertiesForObjectType_1.csproj", "{1AB7BDCC-E4AB-4E41-8ABE-33ECC27B037D}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PropertyRetrieval", "PropertyRetrieval\PropertyRetrieval.shproj", "{9953CD47-F51B-41F0-82AF-427FF753C581}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GQI_NumberOfFilledInPropertiesForObjectType", "GQI_NumberOfFilledInPropertiesForObjectType", "{DF751D6E-E919-4CDE-B072-0FECDD110B70}"
+	ProjectSection(SolutionItems) = preProject
+		GQI_NumberOfFilledInPropertiesForObjectType.xml = GQI_NumberOfFilledInPropertiesForObjectType.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{1C4C47F6-BE80-43B8-9946-8CB06182C004}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GQI_NumberOfFilledInPropertiesForObjectType_1", "GQI_NumberOfFilledInPropertiesForObjectType_1\GQI_NumberOfFilledInPropertiesForObjectType_1.csproj", "{D566E2DC-4424-4150-AC6D-DFE71E27249D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DeleteProperty", "DeleteProperty", "{631FE3B8-C003-41FB-8E1F-562C82F3D63F}"
+	ProjectSection(SolutionItems) = preProject
+		DeleteProperty.xml = DeleteProperty.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{2AF16B08-7EAF-4506-9403-914D14D6F3DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteProperty_1", "DeleteProperty_1\DeleteProperty_1.csproj", "{22A506B7-1480-47F7-B165-310E208C6C75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AB7BDCC-E4AB-4E41-8ABE-33ECC27B037D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB7BDCC-E4AB-4E41-8ABE-33ECC27B037D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB7BDCC-E4AB-4E41-8ABE-33ECC27B037D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB7BDCC-E4AB-4E41-8ABE-33ECC27B037D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D566E2DC-4424-4150-AC6D-DFE71E27249D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D566E2DC-4424-4150-AC6D-DFE71E27249D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D566E2DC-4424-4150-AC6D-DFE71E27249D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D566E2DC-4424-4150-AC6D-DFE71E27249D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22A506B7-1480-47F7-B165-310E208C6C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A506B7-1480-47F7-B165-310E208C6C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A506B7-1480-47F7-B165-310E208C6C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A506B7-1480-47F7-B165-310E208C6C75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{898B44E1-D7EB-44FF-9D4F-B56D8BBE230F} = {4AF71716-1EBA-4796-9211-CBFA3900E52C}
+		{2C05F5DC-8404-4EEF-9D94-36BDEE961CD7} = {E9268AB5-70BE-4D9C-B82C-DC32CAFCAB72}
+		{B4F6B1B3-AFB2-440F-A4DB-78A7FEA875D5} = {3F8AADC5-A4BB-4FCA-BD9D-D78D46E3117C}
+		{0B5E1DB3-99AC-4BA2-9901-E84368C3625A} = {B4F6B1B3-AFB2-440F-A4DB-78A7FEA875D5}
+		{1AB7BDCC-E4AB-4E41-8ABE-33ECC27B037D} = {0B5E1DB3-99AC-4BA2-9901-E84368C3625A}
+		{9953CD47-F51B-41F0-82AF-427FF753C581} = {3F8AADC5-A4BB-4FCA-BD9D-D78D46E3117C}
+		{DF751D6E-E919-4CDE-B072-0FECDD110B70} = {3F8AADC5-A4BB-4FCA-BD9D-D78D46E3117C}
+		{1C4C47F6-BE80-43B8-9946-8CB06182C004} = {DF751D6E-E919-4CDE-B072-0FECDD110B70}
+		{D566E2DC-4424-4150-AC6D-DFE71E27249D} = {1C4C47F6-BE80-43B8-9946-8CB06182C004}
+		{631FE3B8-C003-41FB-8E1F-562C82F3D63F} = {3F8AADC5-A4BB-4FCA-BD9D-D78D46E3117C}
+		{2AF16B08-7EAF-4506-9403-914D14D6F3DA} = {631FE3B8-C003-41FB-8E1F-562C82F3D63F}
+		{22A506B7-1480-47F7-B165-310E208C6C75} = {2AF16B08-7EAF-4506-9403-914D14D6F3DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA91AA60-51AF-4138-88C6-6771C09F2993}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		PropertyRetrieval\PropertyRetrieval.projitems*{1ab7bdcc-e4ab-4e41-8abe-33ecc27b037d}*SharedItemsImports = 5
+		PropertyRetrieval\PropertyRetrieval.projitems*{9953cd47-f51b-41f0-82af-427ff753c581}*SharedItemsImports = 13
+		PropertyRetrieval\PropertyRetrieval.projitems*{d566e2dc-4424-4150-ac6d-dfe71e27249d}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal

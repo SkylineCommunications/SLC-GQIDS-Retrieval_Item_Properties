@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>9953cd47-f51b-41f0-82af-427ff753c581</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>PropertyRetrieval</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Connection\GQIConnection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DTO\ItemInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DTO\PropertyConfigInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DTO\PropertyUsage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ItemTypes\BaseItemTypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ItemTypes\IitemTypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ItemTypes\ItemTypeHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ItemTypes\ViewTypes.cs" />
+  </ItemGroup>
+</Project>
